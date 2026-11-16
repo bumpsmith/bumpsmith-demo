@@ -8,7 +8,7 @@
     "test": "tsc -p . && node --test \"dist/**/*.test.js\""
   },
   "dependencies": {
-    "nanoid": "^4.0.2"
+    "nanoid": "^6.0.2"
   },
   "devDependencies": {
     "@types/node": "22.10.2",
