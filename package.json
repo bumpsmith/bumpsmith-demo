@@ -1,0 +1,17 @@
+{
+  "name": "bumpsmith-demo",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsc -p .",
+    "test": "tsc -p . && node --test \"dist/**/*.test.js\""
+  },
+  "dependencies": {
+    "nanoid": "^4.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "22.10.2",
+    "typescript": "5.9.3"
+  }
+}
